@@ -1,0 +1,41 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Build artifacts
+bin/*
+!bin/.gitignore
+!bin/
+
+# Dependencies
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+tmp/*
+!tmp/.gitignore
+!tmp/logs/
+!tmp/logs/.gitignore
+!tmp/
+*.log
+
+# Test coverage
+coverage.out
+coverage.html

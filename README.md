@@ -137,6 +137,10 @@ sudo resolvectl dns eth0 127.0.0.1
 
 日志文件位于 `tmp/logs/app.log`，同时会输出到控制台。
 
+## 更新日志
+
+查看 [CHANGELOG](doc/CHANGELOG.md) 了解版本变更详情。
+
 ## 技术栈
 
 - **Go 1.24**
